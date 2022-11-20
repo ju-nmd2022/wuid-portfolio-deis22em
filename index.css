@@ -10,15 +10,106 @@ li:hover {
   color: #284233;
 }
 
-h1 {
-  color: #284233;
-}
+
 h3 {
   color: #4d7e60;
+  margin: 1%;
+}
+
+h2{
+  margin: 1%;
+  color: #284233;
+}
+
+.p2{
+  margin: 1%;
+}
+
+.p3{
+  margin: 1%;
 }
 
 body {
   background-color: #f7e5c3;
+  margin: 0%;
 }
 
-<!--the previous 3 lines of code was adapted from https://www.w3schools.com/css/default.asp Accessed: 2022-10-26 -->
+footer{
+  margin: 1%;
+
+}
+
+.hero-image{
+  background-image: url(rainleaf.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 1000px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+  
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  letter-spacing: 4px;
+  font-weight: lighter;
+}
+
+.buttons{
+  padding: 10px 25px;
+}
+
+.b1{
+  color: white;
+  padding: 10px 25px;
+  border: 1px solid;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.b2{
+  color: #97d3ae;
+  padding: 10px 25px;
+  border: 1px solid;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.b1:hover{
+background-color: #adecc5;
+}
+
+.b2:hover{
+  background-color: #adecc5;
+  }
+ 
+.hero-text{
+  animation-name: head;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes head {
+  from {color: white;}
+  to {color: rgb(59, 194, 88);}
+}
+
+
+
+
+
+  <!--the previous 3 lines of code was adapted from https://www.w3schools.com/css/default.asp Accessed: 2022-10-26 -->
+
