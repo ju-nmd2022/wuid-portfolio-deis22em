@@ -94,7 +94,13 @@ background-color: #adecc5;
   background-color: #adecc5;
   }
  
-.hero-text{
+.p1{
+  animation-name: head2;
+  animation: flip 5s infinite;
+  animation-delay: 1s;
+}
+
+.headline{
   animation-name: head;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
@@ -107,7 +113,11 @@ background-color: #adecc5;
   to {color: rgb(59, 194, 88);}
 }
 
-
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
 
 
 
